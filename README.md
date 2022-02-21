@@ -10,12 +10,12 @@ A portfolio built in React and NextJS. Simple, clean and fast.
 
 
 
-![App Screenshot](https://i.ibb.co/jRRNMkH/Screenshot-from-2021-10-27-18-45-14.png)
+![App Screenshot](https://i.ibb.co/55DRRCp/Portfolio.png)
 
   
 ## Demo
 
-[Live Preview](https://www.vipuljha.com)
+[Live Preview](https://www.juniorjblp.ga)
 
 ## Run Project 
 
@@ -46,8 +46,8 @@ Please make sure to maintain `authorship`.
 ## Credits
 
 - [@adrianhajdin](https://github.com/adrianhajdin) (The original author)
-- [@lordarcadius](https://github.com/lordarcadius) (I just fixed and modified few things)
-- [@dhruvsaxena1998](https://github.com/dhruvsaxena1998) (For help and PR)
+
+I just fixed and modified few things for my usage.
 
   
 ## License

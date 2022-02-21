@@ -1,5 +1,6 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 export const Container = styled.div`
   display: grid;
@@ -32,6 +33,7 @@ export const Div2 = styled.div`
   margin-top: 0.75em;
   justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
+    display: none;
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
@@ -41,7 +43,11 @@ export const Div3 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
+    display: none;
+    grid-area: 1 / 4 / 2 / 6;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
@@ -52,8 +58,9 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  margin: 1.5em;
   &:hover {
-    color: #fff;
+    color: #00E88F;
     opacity: 1;
     cursor: pointer;
   }
@@ -116,11 +123,12 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
+margin-top: 0.75em;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
     
   }
-`
+`;
